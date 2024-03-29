@@ -3,7 +3,7 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from paho.mqtt.publish import single
 
-BROKER_URL = "127.0.0.1"
+BROKER_URL = "host.docker.internal"
 
 class RequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
