@@ -1,0 +1,6 @@
+services:
+    doorbell-server:
+        image: sdjmchattie/doorbell-server:1.0
+        restart: always
+        ports:
+            - "15927:15927"
